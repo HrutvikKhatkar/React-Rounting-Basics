@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.list-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hor-line {
+    width: 100%;
+    background-color: rgb(167, 167, 167);
+    height: 1px;
+  }
+  
