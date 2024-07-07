@@ -1,3 +1,9 @@
+
+
+// npm install react-router-dom@6
+//make sure to install it
+
+
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 import Header from './components/Header'
@@ -15,10 +21,10 @@ const App = () => (
         <Header />
         <div className="app-body">
           <Routes>
-            <Route exact path="/" element={Home} />
-            <Route exact path="/about" element={About} />
-            <Route exact path="/contact" element={Contact} />
-            <Route element={NotFound} />
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/about" element={<About/>} />
+            <Route exact path="/contact" element={<Contact/>} />
+            <Route element={<NotFound/>} />
           </Routes>
         </div>
       </div>  
@@ -27,3 +33,4 @@ const App = () => (
 )
 
 export default App
+
